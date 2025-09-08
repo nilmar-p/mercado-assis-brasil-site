@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/**/
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+/**/
+#info-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+#info-bar a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  width: 150px;
+}
+
+#searchInput {
+  background-color: #f7f7f7;
+}
+
+#searchInput::placeholder {
+  color: rgb(43, 43, 43);
+}
+
+#buttonSearch {
+  background-color: #dbdbdb;
+  transition: 0.2s;
+}
+
+#buttonSearch:hover {
+  background-color: black;
+  cursor: pointer;
+
+  #searchIcon {
+    color: #dbdbdb;
+  }
+}
+
+.navbarLink {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.navbarLink:hover {
+  color: rgb(165, 165, 0);
+  text-decoration: underline;
+}
+
+#navbarMenu a {
+  color: black;
+  text-decoration: none;
+  font-weight: 480;
+  transition: 0.1s;
+}
+
+#navbarMenu a:hover {
+  color: rgb(24, 24, 24);
+  text-decoration: underline;
+}
+
+/**/
+#sectionPromotions {
+  height: 300px;
+}
+
+.card-img-top {
+  width: 200px;
+}
+
+.card {
+  height: 380px;
+  transition: 0.1s;
+  border: none;
+  box-shadow: 1px 1px 1px solid black;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+/*Sobre nós*/
+.aboutUs p {
+  font-size: 11pt;
+}
+
+.aboutUs-img {
+  width: 600px;
+}
