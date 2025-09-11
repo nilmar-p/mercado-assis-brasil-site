@@ -99,3 +99,27 @@ body {
 .aboutUs-img {
   width: 600px;
 }
+
+/*Bazar*/
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev {
+  left: -40px;
+}
+
+.carousel-control-next {
+  right: -40px;
+}
+
+.baazarCarouselImg {
+  width: 600px;
+}
+
+.carousel-item .card img {
+  width: 200px;
+  margin: 10px;
+}
